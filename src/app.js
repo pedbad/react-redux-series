@@ -1,5 +1,12 @@
-import React, { Component } from '../node_modules/react';
-import {render} from 'react-dom';
-import Login from './login/login';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-render(<Login  />, document.getElementById('container'));
+//creating a component
+
+const	App	= function(){
+	return <div><p>Hello World! 4</p></div>;
+}
+
+//inserting it on the Dom
+
+ReactDOM.render(<App/>, document.querySelector('#container'));
