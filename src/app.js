@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {component} from 'react';
 import ReactDOM from 'react-dom';
+import Input from './components/Input';
 
 //creating a component
 
-const	App	= function(){
-	return <div><p>Hello World! 4</p></div>;
+const	App	= () =>{
+	return(
+		<div>
+			<Input/>
+		</div>
+	)
 }
 
 //inserting it on the Dom
