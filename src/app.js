@@ -1,13 +1,14 @@
 import React, {component} from 'react';
 import ReactDOM from 'react-dom';
-import Input from './components/Input';
+//import Input from './components/Input';
+import Post from './components/Post';
 
 //creating a component
 
 const	App	= () =>{
 	return(
 		<div>
-			<Input/>
+			<Post/>
 		</div>
 	)
 }
